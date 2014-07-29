@@ -19,7 +19,8 @@
     
     BNRHypnosisViewController *hvc = [[BNRHypnosisViewController alloc] init];
     
-    // This gets a pointer to an object that represents the app bundle
+    // This gets a pointer to an object that represents the app bundle. Note it isn't necessary to pass this into init
+    // because the xib file is properly named.
     NSBundle *appBundle = [NSBundle mainBundle];
     
     // Look in the appBundle for the file BNRReminderViewController.xib

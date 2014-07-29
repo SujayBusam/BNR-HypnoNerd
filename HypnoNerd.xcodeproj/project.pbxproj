@@ -118,14 +118,14 @@
 		23121B0B1987197A009D99D8 /* HypnoNerd */ = {
 			isa = PBXGroup;
 			children = (
-				23121B34198719F1009D99D8 /* BNRHypnosisView.h */,
-				23121B35198719F1009D99D8 /* BNRHypnosisView.m */,
-				23121B141987197A009D99D8 /* BNRAppDelegate.h */,
 				23121B151987197A009D99D8 /* BNRAppDelegate.m */,
-				23121B3A1987DF90009D99D8 /* BNRReminderViewController.h */,
+				23121B3819871A5E009D99D8 /* BNRHypnosisViewController.m */,
 				23121B3B1987DF90009D99D8 /* BNRReminderViewController.m */,
 				23121B3D1987FF68009D99D8 /* BNRReminderViewController.xib */,
-				23121B3819871A5E009D99D8 /* BNRHypnosisViewController.m */,
+				23121B35198719F1009D99D8 /* BNRHypnosisView.m */,
+				23121B34198719F1009D99D8 /* BNRHypnosisView.h */,
+				23121B141987197A009D99D8 /* BNRAppDelegate.h */,
+				23121B3A1987DF90009D99D8 /* BNRReminderViewController.h */,
 				23121B3719871A5E009D99D8 /* BNRHypnosisViewController.h */,
 				23121B171987197A009D99D8 /* Images.xcassets */,
 				23121B0C1987197A009D99D8 /* Supporting Files */,

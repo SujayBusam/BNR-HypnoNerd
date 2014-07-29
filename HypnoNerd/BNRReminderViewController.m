@@ -38,6 +38,20 @@
 {
     NSDate *date = self.datePicker.date;
     NSLog(@"Setting a reminder for %@", date);
+    
+    UILocalNotification *notification = [[UILocalNotification alloc] init];
+    notification.alertBody = @"Hypnotize me!";
+    notification.fireDate = date;
+    [[UIApplication sharedApplication] scheduleLocalNotification:notification];
+}
+
+
+// Override - some extra configuration just before view is added to window
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.datePicker.minimumDate = [NSDate dateWithTimeIntervalSinceNow:60];
 }
 
 
