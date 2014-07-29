@@ -10,6 +10,23 @@
 
 @implementation BNRHypnosisViewController
 
+// Designated initializer - overriding
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    
+    if (self) {
+        // Set the tab bar item's title
+        self.tabBarItem.title = @"Hypnotise";
+        
+        // Set the tab bar item's image
+        UIImage *tabImage = [UIImage imageNamed:@"Hypno"];
+        self.tabBarItem.image = tabImage;
+    }
+    
+    return self;
+}
+
 // Override loadView
 - (void)loadView
 {
