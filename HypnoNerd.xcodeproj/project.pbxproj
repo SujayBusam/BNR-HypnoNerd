@@ -23,6 +23,8 @@
 		23121B3919871A5E009D99D8 /* BNRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23121B3819871A5E009D99D8 /* BNRHypnosisViewController.m */; };
 		23121B3C1987DF90009D99D8 /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23121B3B1987DF90009D99D8 /* BNRReminderViewController.m */; };
 		23121B3E1987FF68009D99D8 /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23121B3D1987FF68009D99D8 /* BNRReminderViewController.xib */; };
+		23121B421988478C009D99D8 /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23121B401988478C009D99D8 /* BNRQuizViewController.m */; };
+		23121B431988478C009D99D8 /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23121B411988478C009D99D8 /* BNRQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		23121B3A1987DF90009D99D8 /* BNRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
 		23121B3B1987DF90009D99D8 /* BNRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
 		23121B3D1987FF68009D99D8 /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
+		23121B3F1988478C009D99D8 /* BNRQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
+		23121B401988478C009D99D8 /* BNRQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
+		23121B411988478C009D99D8 /* BNRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,10 +126,13 @@
 				23121B151987197A009D99D8 /* BNRAppDelegate.m */,
 				23121B3819871A5E009D99D8 /* BNRHypnosisViewController.m */,
 				23121B3B1987DF90009D99D8 /* BNRReminderViewController.m */,
-				23121B3D1987FF68009D99D8 /* BNRReminderViewController.xib */,
+				23121B401988478C009D99D8 /* BNRQuizViewController.m */,
 				23121B35198719F1009D99D8 /* BNRHypnosisView.m */,
+				23121B3D1987FF68009D99D8 /* BNRReminderViewController.xib */,
+				23121B411988478C009D99D8 /* BNRQuizViewController.xib */,
 				23121B34198719F1009D99D8 /* BNRHypnosisView.h */,
 				23121B141987197A009D99D8 /* BNRAppDelegate.h */,
+				23121B3F1988478C009D99D8 /* BNRQuizViewController.h */,
 				23121B3A1987DF90009D99D8 /* BNRReminderViewController.h */,
 				23121B3719871A5E009D99D8 /* BNRHypnosisViewController.h */,
 				23121B171987197A009D99D8 /* Images.xcassets */,
@@ -238,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23121B431988478C009D99D8 /* BNRQuizViewController.xib in Resources */,
 				23121B3E1987FF68009D99D8 /* BNRReminderViewController.xib in Resources */,
 				23121B101987197A009D99D8 /* InfoPlist.strings in Resources */,
 				23121B181987197A009D99D8 /* Images.xcassets in Resources */,
@@ -261,6 +270,7 @@
 			files = (
 				23121B3919871A5E009D99D8 /* BNRHypnosisViewController.m in Sources */,
 				23121B121987197A009D99D8 /* main.m in Sources */,
+				23121B421988478C009D99D8 /* BNRQuizViewController.m in Sources */,
 				23121B161987197A009D99D8 /* BNRAppDelegate.m in Sources */,
 				23121B3C1987DF90009D99D8 /* BNRReminderViewController.m in Sources */,
 				23121B36198719F1009D99D8 /* BNRHypnosisView.m in Sources */,
